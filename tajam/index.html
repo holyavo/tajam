@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>		
+		<title>CSS. Часть №5 (Свойство background)</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="js/script.js"></script>
+	</head>
+	<body>
+       <div class="container">
+           <header class="header">
+                <div class="header__container">
+                    <div class="navbar">
+                        <div class="navbar__company">
+                            <div class="navbar__logo"></div>
+                            <div class="navbar__name">tajam</div>
+                        </div>
+                        <div class="navbar__navigation">
+                            <nav class="list">
+                               <ul>
+                                    <li><a href="#">home</a></li>
+                                    <li><a href="#about">about</a></li>
+                                    <li><a href="#">expertise</a></li>
+                                    <li><a href="#">teams</a></li>
+                                    <li><a href="#">works</a></li>
+                                    <li><a href="#">people say</a></li>
+                                    <li><a href="#">contacts</a></li>
+                               </ul>
+                            </nav>
+                        </div>
+                         <div class="menu-burger">
+                                <span> </span>
+                        </div>
+                    </div>
+                    <div class="about">
+                            <div class="about__title"><h1>We Are Awesome Creative Agency</h1></div>
+                            <div class="about__text">
+                                <p>
+                                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                </p>
+                            </div>
+                            <div class="about__btn btn"><a href="#">learn more</a></div>
+                            <div class="about__dots">
+                               <div class="about__row">
+                                    <div class="dot"><a href="#"></a></div>
+                                    <div class="dot"><a href="#"></a></div>
+                                    <div class="dot"><a href="#"></a></div>
+                                    <div class="dot"><a href="#"></a></div>
+                               </div>
+                            </div>
+                    </div>
+                </div>
+        </header>
+            <section class="content">
+                <div class="story">
+                    <div class="story__container">
+                        <div class="story__row">
+                            <div class="story__img">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                            <div class="story__body">
+                                <div id="about" class="story__title">
+                                    our story
+                                </div>
+                                <div  class="story__text">
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+                                    </p>
+                                    <p>
+                                    Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                </div>
+                                <div class="story__btn btn"><a href="#">learn more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-video">
+                           <div class="story-video__container">
+                                <div class="story-video__btn">
+                                    <a href="#video"><img src="/tajam/img/play.png" alt=""></a>
+                                </div>
+                                <div class="story-video__label">watch our story</div>  
+                           </div>
+                            <div class="story-video__video" id="video">
+                                <iframe src="https://www.youtube.com/embed/xsWDA6g6zU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+                            </div>  
+                    </div>
+                </div>
+                <div class="expertise">
+                    <div class="expertise__container">
+                        <div class="expertise__title"><h2>expertise</h2>
+                        <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p></div>
+                        <div class="expertise__row">
+                            <div class="column">
+                                <div class="column__body">
+                                    <div class="column__img"><img src="/tajam/img/square.PNG" alt="picture"></div>
+                                    <div class="column__title">web design &amp; development</div>
+                                    <div class="column__text"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p></div>
+                                </div>
+                            </div>
+                             <div class="column">
+                                <div class="column__body">
+                                    <div class="column__img"><img src="/tajam/img/brush.png" alt="picture"></div>
+                                    <div class="column__title">branding identity</div>
+                                    <div class="column__text"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p></div>
+                                </div>
+                            </div>
+                             <div class="column">
+                                <div class="column__body">
+                                    <div class="column__img column__img--smartphone"><img src="/tajam/img/smartphone.png" alt="picture"></div>
+                                    <div class="column__title">mobile app</div>
+                                    <div class="column__text"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p></div>
+                                </div>
+                            </div>
+                             <div class="column">
+                                <div class="column__body">
+                                    <div class="column__img"><img src="/tajam/img/graphic.png" alt="picture"></div>
+                                    <div class="column__title">search engine optimization</div>
+                                    <div class="column__text"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p></div>
+                                </div>
+                            </div>
+                             <div class="column">
+                                <div class="column__body">
+                                    <div class="column__img"><img src="/tajam/img/playstation.png" alt="picture"></div>
+                                    <div class="column__title">game development</div>
+                                    <div class="column__text"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p></div>
+                                </div>
+                            </div>
+                             <div class="column">
+                                <div class="column__body">
+                                    <div class="column__img"><img src="/tajam/img/heart.png" alt="picture"></div>
+                                    <div class="column__title">made with love</div>
+                                    <div class="column__text"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team__container">
+                        <div class="team__title">
+                            <h2>meet our amazing team</h2>
+                            <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                        </div>
+                        <div class="team__row">
+                            <div class="card">
+                                <div class="card__body">
+                                    <div class="card__img"><img src="/tajam/img/team_member.png" alt=""></div>
+                                    <div class="card__employee">
+                                        <div class="card__name">semf ucuk</div>
+                                        <div class="card__profession">ceo &amp; founder</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                               <div class="card__body">
+                                    <div class="card__img"><img src="/tajam/img/team_member.png" alt=""></div>
+                                    <div class="card__employee">
+                                        <div class="card__name">pet romack</div>
+                                        <div class="card__profession">marketing</div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                               <div class="card__body">
+                                    <div class="card__img"><img src="/tajam/img/team_member.png" alt=""></div>
+                                    <div class="card__employee">
+                                        <div class="card__name">jeng kol</div>
+                                        <div class="card__profession"> designer</div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__body">
+                                    <div class="card__img"><img src="/tajam/img/team_member.png" alt=""></div>
+                                    <div class="card__employee">
+                                        <div class="card__name">dik adalin</div>
+                                        <div class="card__profession">enfineering</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__join">
+                            <div class="team__text">Become part of our dream team? let's join us!!</div>
+                            <div class="team__btn btn"><a href="#">we are hearing</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works">
+                    <div class="works__container">
+                        <div class="works__title">
+                            <h2>our works</h2>
+                            <div class="works__link">
+                                <a href="#">See All Projects in dribble <img src="/tajam/img/row.png" alt=""></a> 
+                            </div>
+                        </div>
+                        <div class="works__row">
+                          <!--  <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div>
+                             <div class="work">
+                                <img src="/tajam/img/triangle.PNG" alt="">
+                            </div> -->
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                            <div class="work"><a href="#"></a></div>
+                        </div>
+                        <div class="works__btn btn"><a href="#">load more</a></div>
+                    </div>
+                </div>
+                <div class="testimonials">
+                    <div class="testimonials__container">
+                        <div class="testimonials__text">
+                            <p>“</p>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+                            <p>jane galdariel</p>
+                            <p>seo tengkurep</p>
+                        </div>
+                        <div class="testimonials__photo">
+                           <div class="testimonials__raw">    
+                                <a href="#"><img src="/tajam/img/back.svg" alt=""></a>
+                                <img src="/tajam/img/avatar.png" alt="">
+                                <img src="/tajam/img/avatar.png" alt="">
+                                <img src="/tajam/img/avatar.png" alt="">
+                                <img src="/tajam/img/avatar.png" alt="">
+                                <img src="/tajam/img/avatar.png" alt="">
+                                <a href="#"><img src="/tajam/img/forward.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact__container">
+                        <div class="contact__form">
+                           <h2>give us a good news</h2>
+                            <form action="" class="form">
+                                <input type="text" class="form__text form__text--name" placeholder="Name">
+                                <input type="email" class="form__text form__text--email" placeholder="Email">
+                                <input type="text" class="form__text form__name--subject" placeholder="Subject">
+                                <textarea class="form__text form__text--message" placeholder="Your message"></textarea>
+                                <div class="form__btn btn"><a href="#">submit</a></div>
+                            </form>
+                        </div>
+                        <div class="clients">
+                           <h2>our happy clinets</h2>
+                            <div class="clients__row">
+                                <div class="clients__column clients__column--left">
+                                    <img src="/tajam/img/Zara_Logo.svg.svg" alt="">
+                                    <img src="/tajam/img/1280px-Barneys_New_York_Logo.svg.svg" alt="">
+                                    <img src="/tajam/img/Calvin_klein_logo.svg.svg" alt="">
+                                    <img src="/tajam/img/Converse_logo.svg.svg" alt="">
+                                    <img src="/tajam/img/1280px-Levi's_logo.svg.svg" alt="">
+                                </div>
+                               <div class="clients__column clients__column--right">
+                                    <img src="/tajam/img/Logo_of_Mango_(new).svg.svg" alt="">
+                                    <img src="/tajam/img/1280px-Gucci_Logo.svg.svg" alt="">
+                                    <img src="/tajam/img/1280px-Logo_NIKE.svg.svg" alt="">
+                                    <img src="/tajam/img/Puma_Logo.svg.svg" alt="">
+                                    <img src="/tajam/img/Billabong.svg.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__row footer__row--top">
+                        <div class="company">
+                           <div class="company__container">
+                                <div class="company__logo">
+                                    <div class="logo"></div>
+                                    <div class="name">tajam</div>
+                                </div>
+                                <div class="company__text">
+                                    <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="adress">
+                         <div class="adress_container">
+                              <div class="adress__title">
+                                  <h3>our studio</h3>
+                              </div>
+                                <ul class="adress__list">
+                                    <li class="li li--adress"><adress>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+                                    11480 - Indonesia</adress></li>
+                                    <li class="li li--number"><a href=" tel:(+62) 21-2224 3333">(+62) 21-2224 3333</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                           <div class="social-links__container">
+                                <div class="social-links__title"><h3>stay in touch</h3></div>
+                                <div class="social-links__form">
+                                    <form class="form form--footer"action="">
+                                        <input type="text" class="form__text form__text--social-links" placeholder="Subscribe our newsletter">
+                                        <div class="form__btn form__btn--footer"><a href="#"> </a></div>
+                                    </form>
+                                </div>
+                                <div class="social-links__img">
+                                    <div class="social-links__row">
+                                        <div class="link">
+                                            <a href="#"><img src="/tajam/img/facebook25.svg" alt=""></a>
+                                        </div>
+                                        <div class="link">
+                                            <a href="#"><img src="/tajam/img/twitter16.svg" alt=""></a>
+                                        </div>
+                                        <div class="link">
+                                            <a href="#"><img src="/tajam/img/dribbble4.svg" alt=""></a>
+                                        </div>
+                                        <div class="link">
+                                            <a href="#"><img src="/tajam/img/instagram3.svg" alt=""></a>
+                                        </div>
+                                        <div class="link">
+                                            <a href="#"><img src="/tajam/img/google26.svg" alt=""></a>
+                                        </div>
+                                        <div class="link">
+                                            <a href="#"><img src="/tajam/img/youtube13.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__row footer__row--bottom">
+                        <div class="info-menu">
+                            <div class="info-menu info-menu__row">
+                                <a href="#">help</a>
+                                <a href="#">tearms &amp; condition</a>
+                                <a href="#">privacy</a>
+                            </div>
+                        </div>
+                        <div class="copyright">
+                            <p>Copyright &copy; 2015 -Tajem Creative</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+       </div>
+	</body>
+</html>

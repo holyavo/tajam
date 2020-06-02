@@ -1,0 +1,15 @@
+.team {
+  font-family: "Roboto", sans-serif;
+  background: url("/tajam/img/team_bg.png");
+  padding: 15px 330px 0;
+  position: relative;
+}
+.team:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(59, 46, 98, 0.87);
+  width: 100%;
+  height: 100%;
+}

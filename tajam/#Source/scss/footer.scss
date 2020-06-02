@@ -1,0 +1,343 @@
+.footer{
+    font-family: 'Roboto', sans-serif;
+    
+    background: url("/tajam/img/footer_bg.png");
+    background-size: cover;
+    
+    padding: 70px 0 56px; 
+     
+    position: relative;
+    
+    
+    &:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top:0;
+        
+        background-color:  rgba(59, 46, 98, .87);
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+
+.footer__container{
+    position: relative;
+    z-index: 1;
+    
+    width: 100%;
+    max-width: 939px;
+    margin: 0 auto;
+}
+
+.footer__row{
+    display: flex;
+    flex-wrap: wrap;
+    
+    &--top{
+        margin: 0 -10px 43px;
+    }
+    
+    &--bottom{
+        padding: 0 0 0 10px;
+        
+        justify-content: space-between;
+    }
+      
+}
+.company{
+    flex: 0 0 33.3333333%;   
+    align-items: center;
+    
+    min-width: 312px;
+    
+    padding: 0 10px;
+}
+
+
+.company__logo{
+    display: flex;
+    
+    margin: 0 0 23px;
+}
+
+.logo{
+    width: 44px;
+    height: 50px;
+    
+    background: linear-gradient(to right, #00E0D0, #4AA3CC);
+    
+    margin: 0 11px 0 0;
+}
+
+.name{
+    font-size: 30px;
+    margin: auto 0;
+    
+    //Градиентный цвет текста
+    color: transparent;  
+	-webkit-background-clip: text;
+	background-image: linear-gradient(to right, #00E0D0, #4AA3CC);
+}
+
+.company__text{
+    
+    color: #fff;
+    
+    line-height: 25px;
+    
+    font-weight: 300;
+    
+}
+
+.adress{
+    display: flex;
+    flex: 0 0 33.333333%;
+    align-items: center;
+    
+    min-width: 312px;
+    
+    padding: 15px 15px 0;
+}
+.adress__title{
+    
+    margin: 0 0 34px 0;
+    
+    h3{
+        font-weight: bold;
+         font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+
+.adress__list{
+    
+    color: #fff;
+    line-height: 25px;
+    font-weight: 300;
+    
+    .li{
+        padding: 0 0 0 29px;
+        position: relative;
+        
+        &:before{     
+            content: '';
+            
+            position: absolute;
+            top: 5px;
+            left: 0;
+            
+            width: 14px;
+            height: 19px;
+        
+        }
+        
+        &--adress{
+            
+            margin: 0 0 18px;
+            &:before{
+                background:  url(/tajam/img/big104.svg) 0 0 no-repeat;
+            }
+        }
+        
+        &--number{
+            
+            &:before{
+                background:  url(/tajam/img/phone351.svg) 0 0 no-repeat;
+                
+                width: 17px;
+                height: 17px;
+            }
+            
+            a{
+                color: #fff;
+                transition: color .2s linear;
+                
+                &:hover{
+                    color: #0000EE;
+                }
+            }
+        }
+    }
+}
+
+.social-links{
+    display: flex;
+    flex: 0 0 33.3333333333%;
+    
+     padding: 15px 10px 0;
+}
+
+.social-links__title{
+    margin: 0 0 34px 0;
+    
+    h3{
+        font-weight: bold;
+         font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+
+.form{
+    
+    &--footer{
+        display: flex;   
+        margin: 0 0 27px;
+    }
+}
+
+.form__text{
+    
+    &--social-links{
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, .4);
+        color: #fff;
+        
+        width: 211px;
+        
+        margin: 0 10px 0 0;
+    }
+    
+    &--social-links::placeholder { 
+        color:    rgba(255, 255, 255, .75);
+    }
+}
+
+.form__btn{
+
+    &--footer{
+        width: 70px;
+        height: 45px;
+        background: rgba(255, 255, 255, .1) url('/tajam/img/paper122.svg') center no-repeat;
+
+        a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            
+            transition: background-color .2s linear;
+            
+            &:hover{
+                background: rgba(255, 255, 255, .6) url('/tajam/img/paper122.svg') center no-repeat;
+            }
+        }
+    }
+ 
+}
+
+.social-links__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    width: 35px;
+    height: 35px;
+
+    
+    a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+        border-radius: 17.5px;
+        border: 1px solid #fff;
+        
+        text-align: center;
+        
+        padding: 9px 0 0 0;
+        
+        transition: background .2s linear;
+
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        
+        &:hover{
+            background-color: #000;
+        }
+    }
+}
+
+.info-menu{
+    width: 100%;
+    max-width: 325px;
+    
+    margin: 0 30px 0 0;
+}
+
+.info-menu__row{
+    display: flex;
+    justify-content: space-between;
+    
+    a{
+        color: #fff;
+        text-transform: uppercase;
+        transition: color .2s linear;
+        
+        &:hover{
+            color: #00E0D0;
+        }
+    }
+}
+
+.copyright{
+    padding: 0 20px;
+    color: #fff;
+}
+
+
+@media screen and(max-device-width: 931px){
+    .footer__row--top{
+        justify-content: center;
+    }
+    
+    .adress{
+        padding: 15px 10px 0 ;
+        
+        margin: 0 0 15px 0;
+        
+        &__title{
+            margin: 0 0 15px 0;
+        }
+    }
+    
+    .social-links{
+        
+        margin: 0 0 20px;
+        
+        &__title{
+            margin: 0 0 15px 0;
+        }
+    }
+    
+    .info-menu{
+        
+        a{
+            font-size: 15px;
+        }
+    }
+    
+    .footer__row--top{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and(max-device-width: 585px ){
+    
+    .footer__row--bottom{
+        
+        justify-content: center;
+    }
+    
+    .info-menu{
+        margin: 0 0 30px 0;
+    }
+}
+
